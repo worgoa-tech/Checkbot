@@ -37,4 +37,4 @@ if st.button("Chkbot 정밀 분석 실행", type="primary"):
             else:
                 info = ticker.info
                 name = info.get("shortName", symbol)
-                sector = info.get("sector", "기타
+                sector = info.get("sector", "기타")
